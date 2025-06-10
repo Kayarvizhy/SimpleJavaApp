@@ -1,0 +1,6 @@
+@echo off
+echo Compiling...
+mkdir out
+javac -d out src\Prog.java
+echo Running...
+java -cp out Prog
